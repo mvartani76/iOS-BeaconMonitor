@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EB52FD18202DA6001EB6F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB52FC18202DA6001EB6F0 /* Foundation.framework */; };
+		04EB52FF18202DA6001EB6F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB52FE18202DA6001EB6F0 /* CoreGraphics.framework */; };
+		04EB530118202DA6001EB6F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB530018202DA6001EB6F0 /* UIKit.framework */; };
+		04EB530718202DA6001EB6F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EB530518202DA6001EB6F0 /* InfoPlist.strings */; };
+		04EB530918202DA6001EB6F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB530818202DA6001EB6F0 /* main.m */; };
+		04EB530D18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB530C18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.m */; };
+		04EB531018202DA6001EB6F0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB530E18202DA6001EB6F0 /* Main_iPhone.storyboard */; };
+		04EB531318202DA6001EB6F0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB531118202DA6001EB6F0 /* Main_iPad.storyboard */; };
+		04EB531618202DA6001EB6F0 /* CsrBeaconMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB531518202DA6001EB6F0 /* CsrBeaconMonitorViewController.m */; };
+		04EB531818202DA6001EB6F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EB531718202DA6001EB6F0 /* Images.xcassets */; };
+		04EB53351820368A001EB6F0 /* Default.html in Resources */ = {isa = PBXBuildFile; fileRef = 04EB53341820368A001EB6F0 /* Default.html */; };
+		04EB5338182043A6001EB6F0 /* CsrBeaconMonitorContents.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB5337182043A6001EB6F0 /* CsrBeaconMonitorContents.m */; };
+		04EB533A18204906001EB6F0 /* uEnergy.html in Resources */ = {isa = PBXBuildFile; fileRef = 04EB533918204906001EB6F0 /* uEnergy.html */; };
+		04EB533C1820492E001EB6F0 /* Audio.html in Resources */ = {isa = PBXBuildFile; fileRef = 04EB533B1820492E001EB6F0 /* Audio.html */; };
+		04EB533E18205BCA001EB6F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB533D18205BCA001EB6F0 /* CoreLocation.framework */; };
+		04EB534218205BFE001EB6F0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB534118205BFE001EB6F0 /* CoreBluetooth.framework */; };
+		FBCC25031848ED12003FD21A /* csr_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCC25021848ED12003FD21A /* csr_logo_blue.png */; };
+		FBCC25051848F30B003FD21A /* Location.html in Resources */ = {isa = PBXBuildFile; fileRef = FBCC25041848F30B003FD21A /* Location.html */; };
+		FBCC2507184A96FC003FD21A /* csr.html in Resources */ = {isa = PBXBuildFile; fileRef = FBCC2506184A96FC003FD21A /* csr.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EB52F918202DA6001EB6F0 /* BeaconMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB52FC18202DA6001EB6F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EB52FE18202DA6001EB6F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EB530018202DA6001EB6F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EB530418202DA6001EB6F0 /* BeaconMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconMonitor-Info.plist"; sourceTree = "<group>"; };
+		04EB530618202DA6001EB6F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EB530818202DA6001EB6F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EB530A18202DA6001EB6F0 /* BeaconMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaconMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		04EB530B18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsrBeaconMonitorAppDelegate.h; sourceTree = "<group>"; };
+		04EB530C18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsrBeaconMonitorAppDelegate.m; sourceTree = "<group>"; };
+		04EB530F18202DA6001EB6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		04EB531218202DA6001EB6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		04EB531418202DA6001EB6F0 /* CsrBeaconMonitorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsrBeaconMonitorViewController.h; sourceTree = "<group>"; };
+		04EB531518202DA6001EB6F0 /* CsrBeaconMonitorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsrBeaconMonitorViewController.m; sourceTree = "<group>"; };
+		04EB531718202DA6001EB6F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EB531E18202DA6001EB6F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EB53341820368A001EB6F0 /* Default.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Default.html; sourceTree = "<group>"; };
+		04EB5336182043A6001EB6F0 /* CsrBeaconMonitorContents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsrBeaconMonitorContents.h; sourceTree = "<group>"; };
+		04EB5337182043A6001EB6F0 /* CsrBeaconMonitorContents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsrBeaconMonitorContents.m; sourceTree = "<group>"; };
+		04EB533918204906001EB6F0 /* uEnergy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = uEnergy.html; sourceTree = "<group>"; };
+		04EB533B1820492E001EB6F0 /* Audio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Audio.html; sourceTree = "<group>"; };
+		04EB533D18205BCA001EB6F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04EB533F18205BE0001EB6F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04EB534118205BFE001EB6F0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FBCC25021848ED12003FD21A /* csr_logo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = csr_logo_blue.png; path = Images.xcassets/csr_logo_blue.png; sourceTree = "<group>"; };
+		FBCC25041848F30B003FD21A /* Location.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Location.html; sourceTree = "<group>"; };
+		FBCC2506184A96FC003FD21A /* csr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = csr.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EB52F618202DA6001EB6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB534218205BFE001EB6F0 /* CoreBluetooth.framework in Frameworks */,
+				04EB533E18205BCA001EB6F0 /* CoreLocation.framework in Frameworks */,
+				04EB52FF18202DA6001EB6F0 /* CoreGraphics.framework in Frameworks */,
+				04EB530118202DA6001EB6F0 /* UIKit.framework in Frameworks */,
+				04EB52FD18202DA6001EB6F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EB52F018202DA6001EB6F0 = {
+			isa = PBXGroup;
+			children = (
+				04EB530218202DA6001EB6F0 /* BeaconMonitor */,
+				04EB52FB18202DA6001EB6F0 /* Frameworks */,
+				04EB52FA18202DA6001EB6F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EB52FA18202DA6001EB6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EB52F918202DA6001EB6F0 /* BeaconMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EB52FB18202DA6001EB6F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EB534118205BFE001EB6F0 /* CoreBluetooth.framework */,
+				04EB533F18205BE0001EB6F0 /* CoreData.framework */,
+				04EB533D18205BCA001EB6F0 /* CoreLocation.framework */,
+				04EB52FC18202DA6001EB6F0 /* Foundation.framework */,
+				04EB52FE18202DA6001EB6F0 /* CoreGraphics.framework */,
+				04EB530018202DA6001EB6F0 /* UIKit.framework */,
+				04EB531E18202DA6001EB6F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EB530218202DA6001EB6F0 /* BeaconMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				04EB530B18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.h */,
+				04EB530C18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.m */,
+				04EB530E18202DA6001EB6F0 /* Main_iPhone.storyboard */,
+				04EB531118202DA6001EB6F0 /* Main_iPad.storyboard */,
+				04EB531418202DA6001EB6F0 /* CsrBeaconMonitorViewController.h */,
+				04EB531518202DA6001EB6F0 /* CsrBeaconMonitorViewController.m */,
+				04EB5336182043A6001EB6F0 /* CsrBeaconMonitorContents.h */,
+				04EB5337182043A6001EB6F0 /* CsrBeaconMonitorContents.m */,
+				04EB531718202DA6001EB6F0 /* Images.xcassets */,
+				04EB530318202DA6001EB6F0 /* Supporting Files */,
+				04EB53341820368A001EB6F0 /* Default.html */,
+				FBCC2506184A96FC003FD21A /* csr.html */,
+				04EB533918204906001EB6F0 /* uEnergy.html */,
+				04EB533B1820492E001EB6F0 /* Audio.html */,
+				FBCC25041848F30B003FD21A /* Location.html */,
+			);
+			path = BeaconMonitor;
+			sourceTree = "<group>";
+		};
+		04EB530318202DA6001EB6F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC25021848ED12003FD21A /* csr_logo_blue.png */,
+				04EB530418202DA6001EB6F0 /* BeaconMonitor-Info.plist */,
+				04EB530518202DA6001EB6F0 /* InfoPlist.strings */,
+				04EB530818202DA6001EB6F0 /* main.m */,
+				04EB530A18202DA6001EB6F0 /* BeaconMonitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EB52F818202DA6001EB6F0 /* BeaconMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB532E18202DA6001EB6F0 /* Build configuration list for PBXNativeTarget "BeaconMonitor" */;
+			buildPhases = (
+				04EB52F518202DA6001EB6F0 /* Sources */,
+				04EB52F618202DA6001EB6F0 /* Frameworks */,
+				04EB52F718202DA6001EB6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconMonitor;
+			productName = BeaconMonitor;
+			productReference = 04EB52F918202DA6001EB6F0 /* BeaconMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EB52F118202DA6001EB6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CsrBeaconMonitor;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CSR;
+				TargetAttributes = {
+					04EB52F818202DA6001EB6F0 = {
+						DevelopmentTeam = VE97N6S89D;
+					};
+				};
+			};
+			buildConfigurationList = 04EB52F418202DA6001EB6F0 /* Build configuration list for PBXProject "BeaconMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EB52F018202DA6001EB6F0;
+			productRefGroup = 04EB52FA18202DA6001EB6F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EB52F818202DA6001EB6F0 /* BeaconMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EB52F718202DA6001EB6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB533C1820492E001EB6F0 /* Audio.html in Resources */,
+				04EB531318202DA6001EB6F0 /* Main_iPad.storyboard in Resources */,
+				04EB531818202DA6001EB6F0 /* Images.xcassets in Resources */,
+				FBCC25031848ED12003FD21A /* csr_logo_blue.png in Resources */,
+				04EB531018202DA6001EB6F0 /* Main_iPhone.storyboard in Resources */,
+				FBCC25051848F30B003FD21A /* Location.html in Resources */,
+				04EB53351820368A001EB6F0 /* Default.html in Resources */,
+				FBCC2507184A96FC003FD21A /* csr.html in Resources */,
+				04EB533A18204906001EB6F0 /* uEnergy.html in Resources */,
+				04EB530718202DA6001EB6F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EB52F518202DA6001EB6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB531618202DA6001EB6F0 /* CsrBeaconMonitorViewController.m in Sources */,
+				04EB530D18202DA6001EB6F0 /* CsrBeaconMonitorAppDelegate.m in Sources */,
+				04EB530918202DA6001EB6F0 /* main.m in Sources */,
+				04EB5338182043A6001EB6F0 /* CsrBeaconMonitorContents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04EB530518202DA6001EB6F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB530618202DA6001EB6F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EB530E18202DA6001EB6F0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB530F18202DA6001EB6F0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		04EB531118202DA6001EB6F0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB531218202DA6001EB6F0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EB532C18202DA6001EB6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EB532D18202DA6001EB6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EB532F18202DA6001EB6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconMonitor/BeaconMonitor-Prefix.pch";
+				INFOPLIST_FILE = "BeaconMonitor/BeaconMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EB533018202DA6001EB6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconMonitor/BeaconMonitor-Prefix.pch";
+				INFOPLIST_FILE = "BeaconMonitor/BeaconMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EB52F418202DA6001EB6F0 /* Build configuration list for PBXProject "BeaconMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB532C18202DA6001EB6F0 /* Debug */,
+				04EB532D18202DA6001EB6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB532E18202DA6001EB6F0 /* Build configuration list for PBXNativeTarget "BeaconMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB532F18202DA6001EB6F0 /* Debug */,
+				04EB533018202DA6001EB6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EB52F118202DA6001EB6F0 /* Project object */;
+}
